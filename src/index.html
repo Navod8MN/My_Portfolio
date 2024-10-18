@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"href="styles.css" type="text/css">
  </head>
  <body>
     <header class="header">
         <a href="# "class="logo"> DTNM</a>
 
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#project">Projects</a>
+            <a href="#assignments">Assignment</a> 
+            <a href="#contact">Contact</a>
 
         </nav>
     </header>
 
     <header>
-        <section class="home-content">
+        <section class="home" id="home">
             <div class="home-content">
+                
                 <h3>Hello,It's Me</h3>
                 <h1>Tharusha Navod</h1>
                 <h3>And I'm a </h3>
@@ -44,18 +48,19 @@
                         <img src="image/B005.png" alt="">
                     </a>
                 </div>
-              <strong>  <input type ="submit" value="Download CV"> </strong>
-              <img src ="image/0001.jpg" width = "300px">
+              <a href="#" class="btn-box">Download CV</a>
+              
             </div>
         </section>
 
         <section class ="about" id="about">
             <div class = "about-img">
-                <h2>About<span>Me</span></h2>
+                
                 <img src ="image/0002.jpg" width="300px">
             </div>
             <div class ="about-text">
-                
+                <h2>About<span>Me</span></h2>
+                <h4>Frontend Developer !</h4>
                 <p>My name is Tharusha Navod ,and I am from Sri lanka .I studiedat holy cross<br>
                 Collage Kalutara. where i was an active member of the school's cricket team.<br>
                 currently ,iam an undergraduate student at the Institute of java & Software <br>
@@ -64,98 +69,32 @@
                  and solve problems through technology. iam eager to apply my skills and<br>
                 Knowledge in real-world projects and contribute to the field of software<br>
                 development.</p>
-                
+                <a href="# "class ="btn-box"> more About Me</a>
             </div>
-            <div class ="about-MyDetails">
-                <p><strong>Name : Thausha Navod</strong></p>
-                <p><strong>Contact : 0701132907</strong></p>
-                <p><strong>Age: 23 Years</strong></p>
-                <p><strong>Email : tharushanavod688@gmail.com</strong></p>
-                <p><strong>Occupation : Deverloper</strong></p>
-                <p><strong>Nationality : Sri lanka</strong></p>
-
-            </div>
-            <div class ="about-MySkills">
-                <h3>ARE YOU LOOKING<BR>
-                FOR MY SKILLS.</h3>
-                <div class ="Tecnical-bars">
-                    <div class ="bar"><img src ="image/L001.png">
-                        <div class ="info">
-                            <span>HTML</span>
-                        </div>
-                        <div class ="progress-line html">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class ="bar"><img src ="image/L002.png">
-                        <div class ="info">
-                            <span>MYSQL</span>
-                        </div>
-                        <div class ="progress-line MYSQL">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class ="bar"><img src ="image/L003.png">
-                        <div class ="info">
-                            <span>Figma</span>
-                        </div>
-                        <div class ="progress-line Figma">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class ="bar"><img src ="image/L004.png">
-                        <div class ="info">
-                            <span>Java</span>
-                        </div>
-                        <div class ="progress-line Java">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class ="bar"><img src ="image/L005.png">
-                        <div class ="info">
-                            <span>ContentWriting</span>
-                        </div>
-                        <div class ="progress-line ContentWriting">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class ="bar"><img src ="image/L006.png">
-                        <div class ="info">
-                            <span>CSS</span>
-                        </div>
-                        <div class ="progress-line CSS">
-                            <span></span>
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div>
-
-
+            
+           
 
         </section>
         <section>
             <div class ="services" id="services">
                 <div class ="container">
-                    <h2 class="sub-title">Our<span>Services</span></h2>
+                    <h1 class="sub-title">Our<span>Services</span></h1>
                     <div class ="services-list">
                         <div>
                             <img src ="image/M001.png">
-                            <h4>UX-UI Designer</h4>
+                            <h2>UX-UI Designer</h2>
                             <p>Expert UI-UX designer services to elevate user experience and interface aesthetics .</p>
                             <a href="#" class ="read">See more...</a>
                         </div>
                         <div>
                             <img src ="image/M002.png">
-                            <h4>Web Development</h4>
+                            <h2>Web Development</h2>
                             <p>Our web development services include design,coding,testing ,development,maintenance,SEO and support.</p>
                             <a href="#" class ="read">See more...</a>
                         </div>
                         <div>
                             <img src ="image/M003.png">
-                            <h4>Digital Marketing</h4>
+                            <h2>Digital Marketing</h2>
                             <p>SEO, content creation, social media management, PPC, Email marketing , web design, analytics</p>
                             <a href="#" class ="read">See more...</a>
                         </div>
@@ -167,15 +106,15 @@
         </section>
 
         <section>
-            <div id ="portfolio" id ="project">
-                <div class="main-text" id="project">
+            <div id ="project" id ="project">
+                <div class="main-text" >
                     <h2>Our<span>Projects</span></h2>
 
                     <div class ="porfolio-content">
                         <div class ="row">
                           <img src ="image/P001.jpeg">
                           <div class ="layer">
-                            <h4>Web Design</h4>
+                            <h5>Web Design</h5>
                             <p>Word Map : An interactive web application forvisualizing relationships between words. </p>
 
                                 <a href="#" class ="read">learn more...</a>
@@ -184,7 +123,7 @@
                         <div class ="row">
                             <img src ="image/P002.jpeg">
                             <div class ="layer">
-                              <h4>CodeFlow</h4>
+                              <h5>CodeFlow</h5>
                               <p>Word Map : A platform for collaborative coding and project management. </p>
   
                                   <a href="#" class ="read">learn more...</a>
@@ -193,7 +132,7 @@
                           <div class ="row">
                             <img src ="image/P003.jpeg">
                             <div class ="layer">
-                              <h4>EduPortal</h4>
+                              <h5>EduPortal</h5>
                               <p>Word Map : An e-learning platform with integrated assessment tools. </p>
   
                                   <a href="#" class ="read">learn more...</a>
@@ -202,7 +141,7 @@
                           <div class ="row">
                             <img src ="image/P004.jpeg">
                             <div class ="layer">
-                              <h4>SecureShare</h4>
+                              <h5>SecureShare</h5>
                               <p>Word Map : A secure file sharing and document collaboration platform. </p>
   
                                   <a href="#" class ="read">learn more...</a>
@@ -211,7 +150,7 @@
                           <div class ="row">
                             <img src ="image/P005.jpeg">
                             <div class ="layer">
-                              <h4>EcoTrack</h4>
+                              <h5>EcoTrack</h5>
                               <p>Word Map : An enviromental impact tracking tool for business. </p>
   
                                   <a href="#" class ="read">learn more...</a>
@@ -220,7 +159,7 @@
                           <div class ="row">
                             <img src ="image/P006.jpeg">
                             <div class ="layer">
-                              <h4>TaskTrack</h4>
+                              <h5>TaskTrack</h5>
                               <p>Word Map : A task management and billing management system. </p>
   
                                   <a href="#" class ="read">learn more...</a>
@@ -232,19 +171,122 @@
             </div>
 
 
-        </section class ="contact" id="contact">
-            <div class="contact-input"></div>
+        </section>
+        <section class="assignments"id ="assignments"> 
+            <div class="Assignment-head"> 
+              <h2 class="heading">My <span>Assignments</span></h2> 
+            </div> 
+              <div class="card2"> 
+                <img 
+                  src="image/Assignment.jpg" 
+                  alt="Card Image 1" 
+                /> 
+                <h3>Assignment 1</h3> 
+                <p>Description About Assignment 1.</p> 
+                <div class="card-buttons"> 
+                  <button class="btn-primary">Code</button> 
+                  <button class="btn-secondary">View</button> 
+                </div> 
+              </div> 
+       
+              <div class="card2"> 
+                <img 
+                  src="image/Assignment.jpg" 
+                  alt="Card Image 2" 
+                /> 
+                <h3>Assignment 2</h3> 
+                <p>Description About Assignment 2.</p> 
+                <div class="card-buttons"> 
+                  <button class="btn-primary">Code</button> 
+                  <button class="btn-secondary">View</button> 
+                </div> 
+              </div> 
+       
+              <div class="card2"> 
+                <img 
+                  src="image/Assignment.jpg" 
+                  alt="Card Image 3" 
+                /> 
+                <h3>Assignment 3</h3> 
+                <p>Description About Assignment 3.</p> 
+                <div class="card-buttons"> 
+                  <button class="btn-primary">Code</button> 
+                  <button class="btn-secondary">View</button> 
+                </div> 
+              </div> 
+       
+              <div class="card2"> 
+                <img 
+                  src="image/Assignment.jpg" 
+                  alt="Card Image 4" 
+                /> 
+                <h3>Assignment 4</h3> 
+                <p>Description About Assignment 4.</p> 
+                <div class="card-buttons"> 
+                  <button class="btn-primary">Code</button> 
+                  <button class="btn-secondary">View</button> 
+                </div> 
+              </div> 
+       
+              <div class="card2"> 
+                <img 
+                  src="image/Assignment.jpg" 
+                  alt="Card Image 5" 
+                /> 
+                <h3>Assignment 5</h3> 
+                <p>Description About Assignment 5.</p> 
+                <div class="card-buttons"> 
+                  <button class="btn-primary">Code</button> 
+                  <button class="btn-secondary">View</button> 
+                </div> 
+              </div> 
+       
+              <div class="card2"> 
+                <img 
+                  src="image/Assignment.jpg" 
+                  alt="Card Image 6" 
+                /> 
+                <h3>Assignment 6</h3> 
+                <p>Description About Assignment 6.</p> 
+                <div class="card-buttons"> 
+                  <button class="btn-primary">Code</button> 
+                  <button class="btn-secondary">View</button> 
+                </div> 
+              </div> 
+             
+          </section>
+        <section class ="contact" id="contact">
+            <div class="contact-text">
 
                 <h2>Contact<span>Me</span></h2>
-                <form>
-                    <p ><input placeholder="Frist Name">       <input placeholder="Last Name"></p>
-                    <p><input placeholder="Mob.Number">       <input placeholder="Email Address"></p>
-                    <p ><input placeholder="Your Message"></p>
+                <h4>Let's work Together</h4>
+                <p>Feel free to contact me for any inquiries, collaborations,<br>
+                     or support. I'm always happy to assist with any questions<br>
+                      or discuss opportunities. Reach out via email or phone,<br>
+                       and I'll respond as soon as possible.</p>
+                  
+                    <div class ="contact-list">
+                        <li><i class="bx bxs-send"></i>contact@gmail.com/li>
+                        <li><i class="bx bxs-phone"></i>0701132907/li>     
+                    </div>
+                    <div class = "contact-icons">
+                      <a href=""><i class="bx bxl-facebook"></i></a>
+                      <a href=""><i class="bx bxl-twitter"></i></a>
+                      <a href=""><i class="bx bxl-instagram"></i></a>
+                      <a href=""><i class="bx bxl-linkedin"></i></a>
+                    </div>
+            </div>   
+            <div class="contact-form">
+                <form action="">
+                    <input type=""placeholder="Enter Your Name" required>       
+                    <input type="email"placeholder="Enter Your Email" required>  
 
-                    <input type ="submit" value ="Cancel">
-                    <input type ="submit" value ="Send">
+                    <input type=""placeholder="Enter your Subject">
+                    <textarea name="" id=""cols="40" rows="10" placeholder="Enter Your Message"></textarea>
+                 <input type="submit" value="submit" class="send">
+
                 </form>
-
+            </div>    
         <section>
 
     </header>
